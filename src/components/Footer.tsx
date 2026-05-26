@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 export const Footer = () => {
   return (
     <footer className="bg-brand-950 text-surface pt-24 pb-12">
@@ -7,8 +7,8 @@ export const Footer = () => {
           <div className="lg:col-span-5">
             <a
               href="#"
-              className="inline-block font-heading text-3xl text-surface mb-8 hover:opacity-80 transition-opacity">
-              
+              className="inline-block font-heading text-3xl text-surface mb-8 hover:opacity-80 transition-opacity"
+            >
               Revenue Rollercoaster
             </a>
             <p className="text-brand-300 max-w-sm text-lg leading-relaxed">
@@ -25,32 +25,32 @@ export const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   Revenue Strategy
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   Sales Operations
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   Pricing & Packaging
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   GTM Advisory
                 </a>
               </li>
@@ -65,32 +65,32 @@ export const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   About Us
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   Our Approach
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   Work
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   Careers
                 </a>
               </li>
@@ -105,24 +105,24 @@ export const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   LinkedIn
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   Twitter
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-brand-300 hover:text-surface transition-colors">
-                  
+                  className="text-brand-300 hover:text-surface transition-colors"
+                >
                   Instagram
                 </a>
               </li>
@@ -142,6 +142,6 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>);
-
+    </footer>
+  );
 };

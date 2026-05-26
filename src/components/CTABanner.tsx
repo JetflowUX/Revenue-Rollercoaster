@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Button } from './Button';
+import React from "react";
+import { motion } from "framer-motion";
+import { Button } from "./Button";
 export const CTABanner = () => {
   return (
     <section className="py-32 bg-surface border-t border-brand-950/10">
@@ -8,22 +8,22 @@ export const CTABanner = () => {
         <motion.div
           initial={{
             opacity: 0,
-            y: 30
+            y: 30,
           }}
           whileInView={{
             opacity: 1,
-            y: 0
+            y: 0,
           }}
           viewport={{
-            once: true
+            once: true,
           }}
           transition={{
-            duration: 0.8
+            duration: 0.8,
           }}
-          className="max-w-4xl mx-auto">
-          
+          className="max-w-4xl mx-auto"
+        >
           <h2 className="text-6xl md:text-8xl lg:text-[100px] font-heading text-brand-950 leading-[0.9] tracking-tight mb-12">
-            Ready to <em className="italic text-brand-600">stabilize</em> <br />{' '}
+            Ready to <em className="italic text-brand-600">stabilize</em> <br />{" "}
             your revenue?
           </h2>
 
@@ -35,6 +35,6 @@ export const CTABanner = () => {
           </div>
         </motion.div>
       </div>
-    </section>);
-
+    </section>
+  );
 };

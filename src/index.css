@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply text-slate-800 bg-[#F9F8F6] antialiased font-sans;
+    @apply text-slate-900 bg-surface antialiased font-sans;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading text-slate-950 font-normal;

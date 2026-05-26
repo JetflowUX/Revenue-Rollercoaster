@@ -12,20 +12,22 @@ module.exports = {
         heading: ['"Instrument Serif"', 'serif'],
       },
       colors: {
+        // Brand uses blue tones for accents and headings
         brand: {
-          50: '#f0f4f8',
-          100: '#d9e2ec',
-          200: '#bcccdc',
-          300: '#9fb3c8',
-          400: '#829ab1',
-          500: '#627d98',
-          600: '#486581',
-          700: '#334e68',
-          800: '#243b53',
-          900: '#102a43', // Deep navy/slate
-          950: '#0a1929',
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
+          800: '#1e40af',
+          900: '#1e3a8a',
+          950: '#172554'
         },
-        surface: '#F9F8F6', // Cream/off-white
+        // Surface/background should be a neutral light grey for better contrast
+        surface: '#F3F4F6'
       },
       animation: {
         'marquee': 'marquee 25s linear infinite',
