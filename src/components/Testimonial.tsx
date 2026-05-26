@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 export const Testimonial = () => {
   return (
     <section className="py-32 bg-brand-950 text-surface overflow-hidden">
-      <div className="max-w-[90%] mx-auto">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="max-w-5xl mx-auto text-center">
           <motion.div
             initial={{

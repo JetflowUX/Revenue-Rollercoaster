@@ -22,7 +22,7 @@ export const CaseStudies = () => {
 
   return (
     <section id="case-studies" className="py-32 bg-surface">
-      <div className="max-w-[90%] mx-auto">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
           <h2 className="text-5xl md:text-7xl font-heading text-brand-950 leading-tight max-w-2xl">
             Proven results across{' '}

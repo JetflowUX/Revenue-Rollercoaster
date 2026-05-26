@@ -4,7 +4,7 @@ import { Button } from './Button';
 export const CTABanner = () => {
   return (
     <section className="py-32 bg-surface border-t border-brand-950/10">
-      <div className="max-w-[90%] mx-auto text-center">
+      <div className="max-w-7xl mx-auto px-4 text-center">
         <motion.div
           initial={{
             opacity: 0,

@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 export const Hero = () => {
   return (
     <section className="relative pt-40 pb-20 lg:pt-56 lg:pb-32 min-h-screen flex items-center bg-surface">
-      <div className="max-w-[90%] mx-auto w-full">
+      <div className="max-w-7xl mx-auto px-4 w-full">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-end">
           <motion.div
             initial={{
@@ -29,7 +29,7 @@ export const Hero = () => {
               <div className="h-[1px] w-12 bg-brand-950/20"></div>
             </div>
 
-            <h1 className="text-6xl md:text-8xl lg:text-[110px] leading-[0.9] tracking-tight text-brand-950 mb-8">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-[110px] leading-tight tracking-tight text-brand-950 mb-8">
               Smooth the ride. <br />
               <em className="italic text-brand-600 pr-4">Scale</em> the revenue.
             </h1>
@@ -102,7 +102,7 @@ export const Hero = () => {
             delay: 0.5,
             ease: [0.16, 1, 0.3, 1]
           }}
-          className="mt-20 lg:mt-32 w-full aspect-[21/9] overflow-hidden rounded-sm">
+          className="mt-20 lg:mt-32 w-full aspect-video md:aspect-[21/9] overflow-hidden rounded-sm">
           
           <img
             src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=2000"

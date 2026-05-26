@@ -25,7 +25,7 @@ export const Approach = () => {
 
   return (
     <section id="approach" className="py-32 bg-brand-950 text-surface">
-      <div className="max-w-[90%] mx-auto">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <h2 className="text-5xl md:text-7xl font-heading leading-tight max-w-3xl">
             A proven methodology for{' '}

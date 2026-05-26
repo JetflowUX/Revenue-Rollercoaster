@@ -30,10 +30,10 @@ export const Services = () => {
 
   return (
     <section id="services" className="py-32 bg-surface">
-      <div className="max-w-[90%] mx-auto">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-12 gap-16">
           <div className="lg:col-span-4">
-            <div className="sticky top-32">
+            <div className="md:sticky md:top-32">
               <h2 className="text-4xl md:text-6xl font-heading text-brand-950 mb-6 leading-tight">
                 Expertise that drives{' '}
                 <em className="italic text-brand-600">predictable</em> growth.
@@ -66,7 +66,7 @@ export const Services = () => {
                   duration: 0.6,
                   delay: index * 0.1
                 }}
-                className="group border-b border-brand-950/20 py-10 md:py-14 flex flex-col md:flex-row gap-6 md:gap-12 hover:bg-brand-50/50 transition-colors duration-500 cursor-pointer px-4 -mx-4 rounded-sm">
+                className="group border-b border-brand-950/20 py-10 md:py-14 flex flex-col md:flex-row gap-6 md:gap-12 hover:bg-brand-50/50 transition-colors duration-500 cursor-pointer px-4 rounded-sm">
                 
                   <div className="text-sm font-medium text-brand-950/40 w-12 pt-2">
                     {service.number}

@@ -68,7 +68,7 @@ export const Stats = () => {
 
   return (
     <section className="py-32 bg-surface border-b border-brand-950/10">
-      <div className="max-w-[90%] mx-auto">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {stats.map((stat, index) =>
           <motion.div
